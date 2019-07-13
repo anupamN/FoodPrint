@@ -39,7 +39,7 @@ const Product = ({ name = '', rating, isMeat, isProcessed, isFrozen, isPlasticPa
                     <div className="Product-Details">
                         <h1>{name}</h1>
                         <div className="product-rating">
-                          {Array.from(new Array(calculateRating(isMeat, isProcessed, isFrozen, isLocal, isPlasticPackaged))).map((each, i) => (<img key={name + i} src={star}></img>))}
+                          {Array.from(new Array(calculateRating(isMeat, isProcessed, isFrozen, isPlasticPackaged, isLocal))).map((each, i) => (<img key={name + i} src={star}></img>))}
                         </div>
                         <List className="Product-list">
                             <ListItem hidden={!isMeat}>

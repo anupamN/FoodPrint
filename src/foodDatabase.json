@@ -145,7 +145,7 @@ const mockData = [
     },
     {
         name: "Bourke street bread",
-        category: "bread",
+        category: "bakery",
         isLocal: true,
         isMeat: false,
         isProcessed: false,
@@ -154,7 +154,7 @@ const mockData = [
     },
     {
         name: "Bakers delight bread",
-        category: "bread",
+        category: "bakery",
         isLocal: true,
         isMeat: false,
         isProcessed: false,

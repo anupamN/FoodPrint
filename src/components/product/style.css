@@ -10,4 +10,5 @@
 
 .Product-wrapper {
   margin: 10px;
+  min-width: 500px;
 }

@@ -11,3 +11,30 @@
 .Product-wrapper {
   margin: 10px;
 }
+
+.food-icon{
+  height: 20px;
+}
+.product-image {
+  float: left;
+}
+.MuiListItem-root{
+  display:inline !important;
+}
+h1{
+  font-size: 26px;
+}
+
+.MuiListItem-gutters {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+ul{
+  text-align:left;
+}
+
+
+li[hidden] {
+  padding: 0 !important;
+}

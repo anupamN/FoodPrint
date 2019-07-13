@@ -1,12 +1,13 @@
 const mockData = [
-    { 
+    {
         name: "Carmans Muesli",
         category: "pantry",
         isLocal: true,
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Barley Muesli",
@@ -15,7 +16,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "GingerBeer Saxbys",
@@ -24,34 +26,38 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Breakfast juice",
         category: "juices",
-        isLocal: flase,
+        isLocal: false,
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Fizi Natural water",
         category: "juices",
-        isLocal: flase,
+        isLocal: false,
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Safcol tuna",
         category: "seafood",
-        isLocal: flase,
+        isLocal: false,
         isMeat: true,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Random fish",
@@ -60,7 +66,8 @@ const mockData = [
         isMeat: true,
         isProcessed: true,
         isFrozen: true,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Sam's fish",
@@ -69,16 +76,18 @@ const mockData = [
         isMeat: true,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Jalna Organic yogurt",
         category: "dairy",
         isLocal: true,
-        isMeat: false,             
+        isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "chuad fat free yogurt",
@@ -87,7 +96,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Basmati  white rice",
@@ -96,7 +106,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Australian Brown rice",
@@ -105,7 +116,8 @@ const mockData = [
         isMeat: false,
         isProcessed: flase,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Bokashi Brown rice",
@@ -114,7 +126,8 @@ const mockData = [
         isMeat: false,
         isProcessed: flase,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Fiji Apples",
@@ -123,7 +136,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
      {
         name: "organic fresh Apples loose",
@@ -132,7 +146,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Royal Gala Apples 1 kg",
@@ -141,7 +156,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Bourke street bread",
@@ -150,7 +166,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Bakers delight bread",
@@ -159,7 +176,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "sonoma bogette",
@@ -168,7 +186,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "keto bread",
@@ -177,7 +196,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Toscano Waffles",
@@ -186,7 +206,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Nanna's Waffles",
@@ -195,7 +216,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "White Wings Plain Flour 1kg",
@@ -204,7 +226,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
      {
         name: "White Wings Wholemeal Flour 1kg",
@@ -213,7 +236,8 @@ const mockData = [
         isMeat: false,
         isProcessed: false,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "White Wings corn Flour 1kg",
@@ -222,7 +246,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "President Camembert Cheese",
@@ -231,7 +256,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Mon Ami French Brie Cheese ",
@@ -240,7 +266,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Woolworths Triple Cream Brie ",
@@ -249,7 +276,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Pringles Chicken Salt Crips ",
@@ -258,7 +286,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "Red Rock Deli Share Pack Sea Salt ",
@@ -267,7 +296,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Arnott's Shapes Savoury ",
@@ -276,7 +306,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: false
+        isPlasticPackaged: false,
+        rating: 4
     },
     {
         name: "AFantastic Rice Crackers ",
@@ -285,7 +316,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Twisties Cheese Party Bag ",
@@ -294,7 +326,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Burger Rings Party Bag ",
@@ -303,7 +336,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Cc's Corn Chips Tasty Cheese ",
@@ -312,7 +346,8 @@ const mockData = [
         isMeat: false,
         isProcessed: true,
         isFrozen: false,
-        isPlasticPackaged: true
+        isPlasticPackaged: true,
+        rating: 4
     },
     {
         name: "Woolworths Corn Chips Supreme",
@@ -323,6 +358,6 @@ const mockData = [
         isFrozen: false,
         isPlasticPackaged: true
     }
-     
+
 ];
 export mockData;

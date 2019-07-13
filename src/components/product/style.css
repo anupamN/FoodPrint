@@ -1,11 +1,13 @@
-.Product-content { 
+.Product-content {
   display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.Product-image { 
-  width: 300px;
+.Product-image {
+  width: 200px;
 }
 
-.Product-wrapper { 
+.Product-wrapper {
   margin: 10px;
 }

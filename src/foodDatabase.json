@@ -160,6 +160,69 @@ const mockData = [
         isProcessed: false,
         isFrozen: false,
         isPlasticPackaged: true
+    },
+    {
+        name: "sonoma bogette",
+        category: "bakery",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: false,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "keto bread",
+        category: "bakery",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: false,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "Toscano Waffles",
+        category: "bakery",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "Nanna's Waffles",
+        category: "bakery",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: false,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "White Wings Plain Flour 1kg",
+        category: "flour",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+     {
+        name: "White Wings Wholemeal Flour 1kg",
+        category: "flour",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: false,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "White Wings corn Flour 1kg",
+        category: "flour",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
     }
      
 ];

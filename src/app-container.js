@@ -28,7 +28,7 @@ export default class AppContainer extends React.Component {
   render() {
     return (
       <>
-        <Container maxWidth="sm">
+        <Container>
           <header className="App-header">
             <Search onChange={this.handleChange} />
             <Container className="Container-results">

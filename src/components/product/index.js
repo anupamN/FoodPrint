@@ -1,14 +1,18 @@
 import React from 'react';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 
 const Product = ({
   product = '', 
   rating
 }) => {
   return (
-    <div>
-      <div>Product Name: {product}</div>
-      <div>Rating: {rating}</div>
-    </div>
+    <Card>
+      <CardContent>
+        <div>Product Name: {product}</div>
+        <div>Rating: {rating}</div>
+      </CardContent>
+    </Card>
   );
 }
 

@@ -11,11 +11,11 @@ const Search = () => {
         margin="normal"
         variant="outlined"
       />
-      <Button variant="contained" color="primary">
+      <Button size="large" variant="contained" color="primary">
         Search
       </Button>
     </section>
   );
 }
 
-export default Search;
+export default Search;  

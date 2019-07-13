@@ -1,19 +1,22 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
-import Button from '@material-ui/core/Button';
+import SearchIcon from '@material-ui/icons/Search';
+import IconButton from '@material-ui/core/IconButton';
 import './style.css';
 
-const Search = () => {
+const Search = ({
+  onChange = () => undefined
+}) => {
   return (
     <section className="Search-wrapper">
       <TextField
-        onChange={() => {}}
+        onChange={onChange}
         margin="normal"
         variant="outlined"
       />
-      <Button size="large" variant="contained" color="primary">
-        Search
-      </Button>
+      <IconButton>
+        <SearchIcon/>
+      </IconButton>
     </section>
   );
 }

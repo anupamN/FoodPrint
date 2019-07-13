@@ -1,34 +1,67 @@
 export const results = [
   {
-    product: 'Pasta',
-    rating: 1
-  },   
-  {
-    product: 'Meat',
-    rating: 1
-  },   
-  {
-    product: 'Meat',
-    rating: 1
-  },   
-  {
-    product: 'Meat',
-    rating: 1
-  },   
-  {
-    product: 'Meat',
-    rating: 1
-  },   
-  {
-    product: 'Meat',
-    rating: 1
-  },   
-  {
-    product: 'Meat',
-    rating: 1
-  },   
-  {
-    product: 'Meat',
-    rating: 1
+    name: 'Carrots',
+    category: ['vegetable'], 
+    isLocal: false,
+    isMeat: false,
+    isProcessed: true,
+    isFrozen: true,
+    isPlasticPackaged: false
+  }, {
+    name: '',
+    category: [], 
+    isLocal: false,
+    isMeat: true,
+    isProcessed: true,
+    isFrozen: true,
+    isPlasticPackaged: false
+  }, {
+    name: '',
+    category: [], 
+    isLocal: false,
+    isMeat: true,
+    isProcessed: true,
+    isFrozen: true,
+    isPlasticPackaged: false
+  }, {
+    name: '',
+    category: [], 
+    isLocal: false,
+    isMeat: true,
+    isProcessed: true,
+    isFrozen: true,
+    isPlasticPackaged: false
+  }, {
+    name: '',
+    category: [], 
+    isLocal: false,
+    isMeat: true,
+    isProcessed: true,
+    isFrozen: true,
+    isPlasticPackaged: false
+  }, {
+    name: '',
+    category: [], 
+    isLocal: false,
+    isMeat: true,
+    isProcessed: true,
+    isFrozen: true,
+    isPlasticPackaged: false
+  }, {
+    name: '',
+    category: [], 
+    isLocal: false,
+    isMeat: true,
+    isProcessed: true,
+    isFrozen: true,
+    isPlasticPackaged: false
+  }, {
+    name: '',
+    category: [], 
+    isLocal: false,
+    isMeat: true,
+    isProcessed: true,
+    isFrozen: true,
+    isPlasticPackaged: false
   }
 ];

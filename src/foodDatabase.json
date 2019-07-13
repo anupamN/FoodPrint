@@ -106,6 +106,60 @@ const mockData = [
         isProcessed: flase,
         isFrozen: false,
         isPlasticPackaged: true
+    },
+    {
+        name: "Bokashi Brown rice",
+        category: "rice",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: flase,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "Fiji Apples",
+        category: "fresh",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+     {
+        name: "organic fresh Apples loose",
+        category: "fresh",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: false,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "Royal Gala Apples 1 kg",
+        category: "fresh",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: false,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "Bourke street bread",
+        category: "bread",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: false,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "Bakers delight bread",
+        category: "bread",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: false,
+        isFrozen: false,
+        isPlasticPackaged: true
     }
      
 ];

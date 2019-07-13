@@ -1,0 +1,72 @@
+const mockData = {
+	"Coles pink lady apples":{
+		"isLocal" : true,
+		"isMeat" : false,
+		"isFresh" : true,
+		"isProcessed" : false,
+		"isFrozen" : false,
+		"isPlasticPackaged": false,
+
+	},
+	"bananas" : {
+		"isLocal" : true,
+		"isMeat" : false,
+		"isFresh" : true,
+		"isProcessed" : false,
+		"isFrozen" : false,
+		"isPlasticPackaged": false,
+
+	},
+	"beef": {
+		"isLocal" : true,
+		"isMeat" : true,
+		"isFresh" : false,
+		"isProcessed" : true,
+		"isFrozen" : false,
+		"isPlasticPackaged": true,
+
+	},
+	"cereal": {
+		"isLocal" : false,
+		"isMeat" : false,
+		"isFresh" : false,
+		"isProcessed" : true,
+		"isFrozen" : false,
+		"isPlasticPackaged": true,
+	},
+	"organic carrots": {
+		"isLocal" : true,
+		"isMeat" : false,
+		"isFresh" : true,
+		"isProcessed" : false,
+		"isFrozen" : false,
+		"isPlasticPackaged": false,
+	},
+	"Coles frozen peas": {
+		"isLocal" : true,
+		"isMeat" : false,
+		"isFresh" : false,
+		"isProcessed" : false,
+		"isFrozen" : true,
+		"isPlasticPackaged": true,
+	},
+	"Coles fresh peas": {
+		"isLocal" : true,
+		"isMeat" : false,
+		"isFresh" : true,
+		"isProcessed" : false,
+		"isFrozen" : false,
+		"isPlasticPackaged": true,
+	},
+	"Dorritos" : {
+		"isLocal" : false,
+		"isMeat" : false,
+		"isFresh" : false,
+		"isProcessed" : true,
+		"isFrozen" : false,
+		"isPlasticPackaged": true,
+	}
+
+};
+
+export mockData;

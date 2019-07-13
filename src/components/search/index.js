@@ -10,6 +10,7 @@ const Search = ({
   return (
     <section className="Search-wrapper">
       <TextField
+        className="Search-input"
         onChange={onChange}
         margin="normal"
         variant="outlined"

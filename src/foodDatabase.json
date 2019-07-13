@@ -223,6 +223,105 @@ const mockData = [
         isProcessed: true,
         isFrozen: false,
         isPlasticPackaged: true
+    },
+    {
+        name: "President Camembert Cheese",
+        category: "cheese",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "Mon Ami French Brie Cheese ",
+        category: "cheese",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "Woolworths Triple Cream Brie ",
+        category: "cheese",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "Pringles Chicken Salt Crips ",
+        category: "chips",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "Red Rock Deli Share Pack Sea Salt ",
+        category: "chips",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "Arnott's Shapes Savoury ",
+        category: "chips",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: false
+    },
+    {
+        name: "AFantastic Rice Crackers ",
+        category: "chips",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "Twisties Cheese Party Bag ",
+        category: "chips",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "Burger Rings Party Bag ",
+        category: "chips",
+        isLocal: true,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "Cc's Corn Chips Tasty Cheese ",
+        category: "chips",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
+    },
+    {
+        name: "Woolworths Corn Chips Supreme",
+        category: "chips",
+        isLocal: false,
+        isMeat: false,
+        isProcessed: true,
+        isFrozen: false,
+        isPlasticPackaged: true
     }
      
 ];
